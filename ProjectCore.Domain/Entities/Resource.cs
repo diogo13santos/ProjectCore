@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ProjectDDD.Domain.Entities
+namespace ProjectCore.Domain.Entities
 {
     public class Resource
     {

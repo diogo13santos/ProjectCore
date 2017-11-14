@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectDDD.Domain.Entities
+namespace ProjectCore.Domain.Entities
 {
     public class User
     {
