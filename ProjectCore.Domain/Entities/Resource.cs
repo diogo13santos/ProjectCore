@@ -10,7 +10,7 @@ namespace ProjectCore.Domain.Entities
         public int Module_Id { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime LastModification { get; set; }
-        public virtual Module ResourceModule { get; set; }
+        public virtual Module Module { get; set; }
         public ICollection<Privilege> Privileges { get; set; }
 
         public Resource()

@@ -12,6 +12,7 @@ namespace ProjectCore.Domain.Entities
         public DateTime CreationDate { get; set; }
         public DateTime LastModification { get; set; }
         public virtual Module SuperModule { get; set; }
+        public ICollection<Module> ChildModules { get; set; }
         public ICollection<Resource> Resources { get; set; }
 
         public Module()

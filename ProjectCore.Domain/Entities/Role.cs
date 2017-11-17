@@ -16,6 +16,7 @@ namespace ProjectCore.Domain.Entities
         {
             this.Users = new List<User>();
             this.Privileges = new List<Privilege>();
+            this.CreationDate = DateTime.Now;
         }
     }
 }

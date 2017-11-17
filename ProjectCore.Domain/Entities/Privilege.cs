@@ -11,6 +11,7 @@ namespace ProjectCore.Domain.Entities
         public int Status { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime LastModification { get; set; }
-        public virtual Resource ResourcePrivilege { get; set; }
+        public virtual Resource Resource { get; set; }
+        public virtual Role Role { get; set; }
     }
 }

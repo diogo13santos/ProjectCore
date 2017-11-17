@@ -12,7 +12,11 @@ namespace ProjectCore.Domain.Entities
         public int Status { get; set; }        
         public DateTime CreationDate { get; set; }
         public DateTime LastModification { get; set; }
-        public virtual Role UserRole { get; set; }
+        public virtual Role Role { get; set; }
 
+        public User()
+        {
+            this.CreationDate = DateTime.Now;
+        }
     }
 }
